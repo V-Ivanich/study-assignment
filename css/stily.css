@@ -1,0 +1,327 @@
+body {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 0;
+}
+/* первый блок */
+.cont_1 {
+	display: grid;
+	grid-template-areas:
+	"hd hd hd"
+	"nv os ban";
+	grid-template-rows: 70px 1fr;
+	grid-template-columns: 10% 1fr 10%;
+	text-align: center;
+}
+.cont_1 {
+	background-image: url(../images/izo1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	color: #fff;
+	font-family: 'Alegreya', sans-serif;
+}
+.header {
+	grid-area: hd;
+	background-color: rgba(0,0,0, 0.3);
+}
+.nav {
+	grid-area: nv;
+}
+.osnov {
+	grid-area: os;
+}
+.baner {
+	grid-area: ban;
+}
+/* меню с логотипом и соц сети */
+.header {
+	display: flex;
+	text-align: center;
+	margin: auto 0;
+}
+.pusto_l {
+	width: 13%;
+}
+.pusto_r {
+	width: 21%;
+	margin: auto;
+}
+.logo {
+	width: 16%;
+}
+.header div p.lg-1 {
+	margin-top: 25px;
+}
+.centr {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+h1.zh {
+	font-size: 6.8em;
+	margin-top: 16%;
+	letter-spacing: 5px;
+	font-weight: 200;
+	font-family: 'Alegreya', sans-serif;
+}
+h2 {
+	font-family: 'Alegreya', sans-serif;
+	font-size: 4.8em;
+	letter-spacing: 5px;
+	font-weight: 200;
+	margin: 0;
+}
+h4 {
+	margin-top: -5px;
+	margin-bottom: 30px;
+	color: orange;
+	letter-spacing: 5px;
+}
+
+/* второй блок */
+.cont_2 {
+	display: grid;
+	grid-template-areas:
+	"bl-1 bl-2 bl-3";
+	grid-template-rows: 1fr;
+	grid-template-columns: 10% 1fr 10%;
+	text-align: center;
+	grid-gap: 0;
+}
+.cont_2 {
+	background-image: url(../images/foot.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.blok_1 {
+	grid-area: bl-1;
+	vertical-align: bottom;
+}
+.blok_2 {
+	grid-area: bl-2;
+	vertical-align: bottom;
+}
+.blok_3 {
+	grid-area: bl-3;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+}
+.blok_2 {
+	display: flex;
+}
+/* Cубконтейнер с 4-я фото и текстом */
+.r_panel {
+	display: grid;
+	grid-template-areas:
+	". ."
+	"p1 p2"
+	"p3 p4"
+	". .";
+	grid-template-rows: 20% 1fr 1fr auto;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 1fr;
+	grid-auto-columns: 1fr;
+	grid-column-gap: 0;
+	grid-row-gap: 15px;
+	align-self: center;
+	position: relative;
+	width: 50%;
+}
+.l_panel {
+	text-align: center;
+	width: 50%;
+}
+.pan1 {
+	grid-area: p1;
+}
+.pan2 {
+	grid-area: p2;
+}
+.pan3 {
+	grid-area: p3;
+}
+.pan4 {
+	grid-area: p4;
+}
+.romashka {
+	position: absolute;
+	right: 28%;
+	top: 25%;
+}
+.romashka p {
+	position: absolute;
+	top: 24%;
+	left: 25%;
+	font-size: 1.9em;
+	font-family: 'Alegreya', sans-serif;
+	color: #1f1f1f;
+}
+.podtext {
+	font-family: 'Scriptina', sans-serif;
+	font-size: 1.9em;
+	letter-spacing: 5px;
+}
+
+.l_panel,.pan1,.pan2,.pan3,.pan4 {
+	align-self: center;
+}
+/* третий блок */
+.cont_3 {
+	display: grid;
+	grid-template-areas:
+	"bl-4 bl-5 bl-6";
+	grid-template-rows: 1fr;
+	grid-template-columns: 10% 1fr 10%;
+	text-align: center;
+}
+.cont_3 {
+	background-image: url(../images/izo2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.blok_4 {
+	grid-area: bl-4;
+}
+.blok_5 {
+	grid-area: bl-5;
+}
+.blok_6 {
+	grid-area: bl-6;
+}
+/* четвертый блок */
+.cont_4 {
+	display: grid;
+	grid-template-areas:
+	"bl-7 bl-8 bl-9";
+	grid-template-rows: 1fr;
+	grid-template-columns: 10% 1fr 10%;
+	text-align: center;
+}
+.cont_4 {
+	background-image: url(../images/izo3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.blok7 {
+	grid-area: bl-7;
+}
+.blok_8 {
+	grid-area: bl-8;
+}
+.blok_9 {
+	grid-area: bl-9;
+}
+/* пятый блок */
+.cont_5 {
+	display: grid;
+	grid-template-areas:
+	"bl-10 bl-11 bl-12"
+	"fu fu fu";
+	grid-template-rows: 1fr;
+	grid-template-columns: 10% 1fr 10%;
+	text-align: center;
+}
+.cont_5 {
+	background-image: url(../images/foot.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.blok_10 {
+	grid-area: bl-10;
+}
+.blok_11 {
+	grid-area: bl-11;
+}
+.blok_12 {
+	grid-area: bl-12;
+}
+.footer {
+	background-image: url(../images/foter.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.osnov {
+	background-image: radial-gradient(ellipse 60% 60%, rgba(50, 50, 50, 0.6) 0%, rgba(50,50,50,0));
+	padding-left: 10%;
+}
+.lg-1 {
+	color: #fff;
+	font-family: 'Alegreya', sans-serif;
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+.l_panel {
+	position: relative;
+}
+.povar {
+	display: flex;
+	justify-content: center;
+}
+.povar_l {
+	margin-right: 30px;
+}
+.povar_r {
+	margin-left: 30px;
+}
+.avatar {
+	margin-top: 15px;
+}
+p.benito {
+	border-bottom: 2px solid #1f1f1f;
+	border-top: 2px solid #1f1f1f;
+	font-size: 2.5em;
+	padding-bottom: 10px;
+}
+p.abzac {
+	font-family: 'ProximaNova', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: 3px;
+}
+p.lg {
+	color: #fff;
+	font-family: 'Scriptina', sans-serif;
+	font-size: 30px;
+	margin: 0;
+	margin-top: -15px;
+	letter-spacing: 10px;
+}
+.zag-3 {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 5px;
+	font-size: 1.6em;
+	margin-top: 3%;
+}
+.twit,.face,.inst {
+	margin-left: 25px;
+}
+a.zag-4 {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	padding: 5px 70px 5px 70px;
+}
+.our {
+	font-family: 'Alegreya';
+	letter-spacing: 5px;
+	font-weight: 700;
+}
+
+.pan1 img,.pan2 img,
+.pan3 img,.pan4 img {
+	outline: 5px solid #fff;
+	outline-offset: -12px;
+}
