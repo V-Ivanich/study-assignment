@@ -102,7 +102,7 @@ h4 {
 }
 .blok_2 {
 	grid-area: bl-2;
-	vertical-align: bottom;
+	align-self: center;
 }
 .blok_3 {
 	grid-area: bl-3;
@@ -114,6 +114,7 @@ a {
 }
 .blok_2 {
 	display: flex;
+	margin: 0;
 }
 /* Cубконтейнер с 4-я фото и текстом */
 .r_panel {
@@ -123,13 +124,11 @@ a {
 	"p1 p2"
 	"p3 p4"
 	". .";
-	grid-template-rows: 20% 1fr 1fr auto;
+	grid-template-rows: auto 1fr 1fr auto;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: 1fr;
 	grid-auto-columns: 1fr;
-	grid-column-gap: 0;
-	grid-row-gap: 15px;
-	align-self: center;
+	grid-gap: 15px;
 	position: relative;
 	width: 50%;
 }
@@ -152,7 +151,7 @@ a {
 .romashka {
 	position: absolute;
 	right: 28%;
-	top: 25%;
+	top: 32%;
 }
 .romashka p {
 	position: absolute;
@@ -168,9 +167,25 @@ a {
 	letter-spacing: 5px;
 }
 
-.l_panel,.pan1,.pan2,.pan3,.pan4 {
+.l_panel {
 	align-self: center;
 }
+.pan1,.pan2,.pan3,.pan4 {
+	display: flex;
+}
+.pan1,.pan2 {
+	align-items: flex-end;
+}
+.pan3,.pan4 {
+	align-items: flex-start;
+}
+.pan1,.pan3 {
+	justify-content: flex-end;
+}
+.pan2,.pan4 {
+	justify-content: flex-start;
+}
+
 /* третий блок */
 .cont_3 {
 	display: grid;
