@@ -120,11 +120,15 @@ a {
 .r_panel {
 	display: grid;
 	grid-template-areas:
+	/*
 	". ."
+	*/
 	"p1 p2"
-	"p3 p4"
+	"p3 p4";
+	/*
 	". .";
-	grid-template-rows: auto 1fr 1fr auto;
+	*/
+	grid-template-rows: 1fr 1fr;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: 1fr;
 	grid-auto-columns: 1fr;
@@ -152,10 +156,11 @@ a {
 	position: absolute;
 	right: 28%;
 	top: 32%;
+	opacity: 0.9;
 }
 .romashka p {
 	position: absolute;
-	top: 24%;
+	top: 20%;
 	left: 25%;
 	font-size: 1.9em;
 	font-family: 'Alegreya', sans-serif;
@@ -206,10 +211,19 @@ a {
 }
 .blok_5 {
 	grid-area: bl-5;
+	display: flex;
+	align-items: center;
 }
 .blok_6 {
 	grid-area: bl-6;
 }
+.slaid {
+	width: 60%;
+	height: 512.5px;
+	margin-right: 60px;
+	background-color: #fff;
+}
+
 /* четвертый блок */
 .cont_4 {
 	display: grid;
