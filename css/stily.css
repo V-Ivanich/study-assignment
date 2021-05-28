@@ -16,10 +16,58 @@ body {
 .cont_1 {
 	background-image: url(../images/izo1.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
+	background-size: 100% 100%;
+	background-position: center;
 	color: #fff;
 	font-family: 'Alegreya', sans-serif;
+}
+.osnov {
+	height: 89vh;
+	background-image: radial-gradient(ellipse 70% 60%, rgba(50, 50, 50, 0.6) 0%, rgba(50,50,50,0));
+}
+.osnov {
+	display: grid;
+	grid-template-areas:
+	"."
+	"ro1"
+	"ro2"
+	"ro3"
+	"ro4"
+	".";
+	grid-template-rows:20% 20% 10% 15% 20% 5%;
+	grid-gap: 4px;
+	text-align: center;
+}
+.rr1 {
+	grid-area: ro1;
+}
+.rr2 {
+	grid-area: ro2;
+}
+.rr3 {
+	grid-area: ro3;
+}
+.rr4 {
+	grid-area: ro4;
+}
+.rr1 {
+	padding-top: 28px;
+}
+a.zag-4 {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	padding: 5px 70px 5px 70px;
+}
+.zag-3 {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 3px;
+	font-size: 1.4em;
+	font-weight: 300;
+	padding-left: 25px;
 }
 .header {
 	grid-area: hd;
@@ -58,14 +106,14 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
-
 h1.zh {
-	font-size: 6.8em;
-	margin-top: 16%;
+	font-size: 5.8em;
 	letter-spacing: 5px;
-	font-weight: 200;
-	font-family: 'Alegreya', sans-serif;
+	font-weight: 600;
+	font-family: 'Playfair Display', sans-serif;
+	margin: 0;
 }
+
 h2 {
 	font-family: 'Alegreya', sans-serif;
 	font-size: 4.8em;
@@ -93,8 +141,8 @@ h4 {
 .cont_2 {
 	background-image: url(../images/foot.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
+	background-size: 100% 100%;
+	height: 98vh;
 }
 .blok_1 {
 	grid-area: bl-1;
@@ -203,9 +251,10 @@ a {
 .cont_3 {
 	background-image: url(../images/izo2.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
+	background-size: 100% 100%;
+	height: 81vh;
 }
+
 .blok_4 {
 	grid-area: bl-4;
 }
@@ -213,14 +262,16 @@ a {
 	grid-area: bl-5;
 	display: flex;
 	align-items: center;
+	position: relative;
 }
 .blok_6 {
 	grid-area: bl-6;
 }
 .slaid {
 	width: 60%;
-	height: 512.5px;
-	margin-right: 60px;
+	height: 510px;
+	margin-right: 100px;
+	margin-top: -4px;
 	background-color: #fff;
 }
 
@@ -236,8 +287,8 @@ a {
 .cont_4 {
 	background-image: url(../images/izo3.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
+	background-size: 100% 100%;
+	height: 81vh;
 }
 .blok7 {
 	grid-area: bl-7;
@@ -261,8 +312,8 @@ a {
 .cont_5 {
 	background-image: url(../images/foot.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
+	background-size: 100% 100%;
+	height: 98vh;
 }
 .blok_10 {
 	grid-area: bl-10;
@@ -276,13 +327,9 @@ a {
 .footer {
 	background-image: url(../images/foter.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
 }
 
-.osnov {
-	background-image: radial-gradient(ellipse 60% 60%, rgba(50, 50, 50, 0.6) 0%, rgba(50,50,50,0));
-	padding-left: 10%;
-}
 .lg-1 {
 	color: #fff;
 	font-family: 'Alegreya', sans-serif;
@@ -325,24 +372,11 @@ p.lg {
 	margin-top: -15px;
 	letter-spacing: 10px;
 }
-.zag-3 {
-	font-family: 'Roboto', sans-serif;
-	letter-spacing: 5px;
-	font-size: 1.6em;
-	margin-top: 3%;
-}
+
 .twit,.face,.inst {
 	margin-left: 25px;
 }
-a.zag-4 {
-	display: inline-block;
-	position: relative;
-	text-decoration: none;
-	border-radius: 5px;
-	background-color: rgba(0,0,0,0.3);
-	color: #fff;
-	padding: 5px 70px 5px 70px;
-}
+
 .our {
 	font-family: 'Alegreya';
 	letter-spacing: 5px;
@@ -353,4 +387,15 @@ a.zag-4 {
 .pan3 img,.pan4 img {
 	outline: 5px solid #fff;
 	outline-offset: -12px;
+}
+
+.krugi {
+	display: flex;
+	justify-content: center;
+}
+.mins {
+	position: absolute;
+	right: 0;
+	top: 13%;
+	box-shadow: -10px 10px 10px 5px #d3d3d3;
 }
