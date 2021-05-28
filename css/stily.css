@@ -246,7 +246,6 @@ a {
 	"bl-4 bl-5 bl-6";
 	grid-template-rows: 1fr;
 	grid-template-columns: 10% 1fr 10%;
-	text-align: center;
 }
 .cont_3 {
 	background-image: url(../images/izo2.png);
@@ -389,13 +388,70 @@ p.lg {
 	outline-offset: -12px;
 }
 
+.slaid {
+	display: grid;
+		grid-template-areas:
+	"sr1"
+	"sr2"
+	"sr3"
+	"sr4";
+	grid-template-rows: 1fr 0.5fr 1fr 1.5fr;
+}
+.srow1 {
+	grid-area: sr1;
+}
+.srow2 {
+	grid-area: sr2;
+}
+.srow3 {
+	grid-area: sr3;
+}
 .krugi {
+	grid-area: sr4;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
 }
 .mins {
 	position: absolute;
+	display: flex;
 	right: 0;
 	top: 13%;
-	box-shadow: -10px 10px 10px 5px #d3d3d3;
+	box-shadow: -10px 10px 37px 2px #d3d3d3;
+	justify-content: center;
+}
+.ready {
+	position: absolute;
+	text-align: center;
+}
+.srow1 h2 {
+	font-size: 3.1em;
+	padding-top: 10%;
+	padding-left: 90px;
+	font-weight: 500;
+}
+.srow3 p {
+	padding-left: 90px;
+}
+.srow2 p {
+	padding-left: 92px;
+	padding-top: 0;
+	margin-top: 0;
+}
+.mr1 {
+	margin-top: 25px;
+}
+.mr2 {
+	font-size: 5.5em;
+	margin: 0;
+	margin-top: 15px;
+}
+.mr3 {
+	margin-top: 0;
+}
+.prev,.next {
+	margin-top: 20px;
+	padding-top: 70px;
+	color: #000;
+	font-size: 2.5em;
 }
