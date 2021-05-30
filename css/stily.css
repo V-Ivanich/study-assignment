@@ -294,6 +294,7 @@ a {
 }
 .blok_8 {
 	grid-area: bl-8;
+	display: flex;
 }
 .blok_9 {
 	grid-area: bl-9;
@@ -323,6 +324,51 @@ a {
 .blok_12 {
 	grid-area: bl-12;
 }
+.footer {
+	grid-area: fu;
+}
+.blok_11 {
+	display: grid;
+	grid-template-areas:
+	". ri1"
+	"le1 ri2"
+	"le2 ri3"
+	"le3 ri3"
+	"le4 ri3"
+	"le5 ri3"
+	"le6 ri3"
+	". .";
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: repeat(8, 1fr);
+}
+.l_c5_p1 {
+	grid-area: le1;
+}
+.l_c5_p2 {
+	grid-area: le2;
+}
+.l_c5_p3 {
+	grid-area: le3;
+}
+.l_c5_p4 {
+	grid-area: le4;
+}
+.l_c5_p5 {
+	grid-area: le5;
+}
+.l_c5_p6 {
+	grid-area: le6;
+}
+.r_c5_p1 {
+	grid-area: ri1;
+}
+.r_c5_p2 {
+	grid-area: ri2;
+}
+.r_c5_p3 {
+	grid-area: ri3;
+}
+
 .footer {
 	background-image: url(../images/foter.png);
 	background-repeat: no-repeat;
