@@ -314,6 +314,34 @@ a {
 .blok_9 {
 	grid-area: bl-9;
 }
+.panel-l {
+	display: grid;
+	grid-template-areas:
+	"." "l-1" "l-2" "l-3" "l-4" "l-5" "l-6" "l-7" ".";
+	grid-template-rows: auto repit(7, 1fr) auto;
+}
+.pan_l-1 {
+	grid-area: l-1;
+}
+.pan_l-2 {
+	grid-area: l-2;
+}
+.pan_l-3 {
+	grid-area: l-3;
+}
+.pan_l-4 {
+	grid-area: l-4;
+}
+.pan_l-5 {
+	grid-area: l-5;
+}
+.pan_l-6 {
+	grid-area: l-6;
+}
+.pan_l-7 {
+	grid-area: l-7;
+}
+
 /* пятый блок */
 .cont_5 {
 	display: grid;
@@ -354,7 +382,7 @@ a {
 	"le6 ri3"
 	". .";
 	grid-template-columns: 1fr 2fr;
-	grid-template-rows: repeat(8, 1fr);
+	grid-template-rows: 1fr 1fr 139px 139px 139px 139px 1fr 1fr;
 }
 .l_c5_p1 {
 	grid-area: le1;
