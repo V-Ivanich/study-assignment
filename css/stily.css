@@ -218,6 +218,7 @@ a {
 	display: flex;
 	margin: 0;
 }
+
 /* Cубконтейнер с 4-я фото и текстом */
 .r_panel {
 	display: grid;
@@ -268,10 +269,35 @@ a {
 	font-family: 'Alegreya', sans-serif;
 	color: #1f1f1f;
 }
+.text-2 {
+	display: flex;
+	justify-content: center;
+}
 .podtext {
-	font-family: 'Scriptina', sans-serif;
-	font-size: 1.9em;
-	letter-spacing: 5px;
+	font-size: 24px;
+	font-family: "Scriptina";
+	color: rgb(164, 125, 94);
+	font-weight: 500;
+	letter-spacing: 2px;
+	line-height: 1.3;
+}
+.kavichki {
+	font-size: 60px;
+	font-family: "Times New Roman";
+	color: rgba(86, 83, 76, 0.502);
+	margin: 0;
+	padding: 0;
+}
+.text-2 p {
+	display: flex;
+}
+.lll {
+	align-items: flex-start;
+	margin-right: 40px;
+}
+.rrr {
+		align-items: flex-end;
+		margin-left: 20px;
 }
 
 .l_panel {
