@@ -191,6 +191,7 @@ h3 {
 	font-family: "Alegreya";
 	color: rgb(86, 83, 76);
 	font-weight: bold;
+	padding-top: 15px;
 }
 .cont_2 {
 	background-image: url(../images/fon-2.jpg);
@@ -268,12 +269,69 @@ a {
 	font-family: 'Alegreya', sans-serif;
 	color: #1f1f1f;
 }
-.podtext {
-	font-family: 'Scriptina', sans-serif;
-	font-size: 1.9em;
-	letter-spacing: 5px;
+.text-2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
 }
-
+.podtext {
+	font-size: 24px;
+	font-family: "Scriptina";
+	color: rgb(164, 125, 94);
+	font-weight: 500;
+	letter-spacing: 2px;
+	line-height: 1.3;
+}
+.kavichki {
+	font-size: 60px;
+	font-family: "Times New Roman";
+	color: rgba(86, 83, 76, 0.502);
+	margin: 0;
+	padding: 0;
+}
+.text-2 p {
+	display: flex;
+}
+.lll {
+	align-items: flex-start;
+	margin-right: 40px;
+}
+.rrr {
+		align-items: flex-end;
+		margin-left: 20px;
+}
+p.abzac {
+	font-family: 'Proxima Nova';
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: rgb(86, 83, 76);
+	line-height: 1.714;
+	padding-top: 25px;
+}
+.povar {
+	display: flex;
+	justify-content: center;
+}
+.povar_l {
+	margin-right: 50px;
+	margin-top: 20px;
+}
+.povar_r {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.avatar {
+	margin-top: 20px;
+}
+p.benito {
+	border-bottom: 1px solid rgba(86, 83, 76, 0.5);
+	border-top: 1px solid rgba(86, 83, 76, 0.5);
+	font-size: 24px;
+	font-family: "Alegreya";
+	color: rgb(86, 83, 76);
+	padding: 15px 0;
+}
 .l_panel {
 	align-self: center;
 }
@@ -459,35 +517,6 @@ a {
 
 .l_panel {
 	position: relative;
-}
-.povar {
-	display: flex;
-	justify-content: center;
-}
-.povar_l {
-	margin-right: 30px;
-}
-.povar_r {
-	margin-left: 30px;
-}
-.avatar {
-	margin-top: 15px;
-}
-p.benito {
-	border-bottom: 2px solid #1f1f1f;
-	border-top: 2px solid #1f1f1f;
-	font-size: 24px;
-	font-family: "Alegreya";
-	color: rgb(86, 83, 76);
-	padding-bottom: 10px;
-}
-p.abzac {
-	font-family: 'Proxima Nova';
-	font-size: 14px;
-	font-weight: 600;
-	letter-spacing: 2px;
-	color: rgb(86, 83, 76);
-	line-height: 1.714;
 }
 
 .twit,.face,.inst {
