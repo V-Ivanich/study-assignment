@@ -176,6 +176,16 @@ h5 {
 	margin: 0;
 }
 
+.bulka {
+	position: absolute;
+	left: 48%;
+	top: 880px;
+}
+.bylka {
+	position: absolute;
+	left: 26%;
+	top: 26%;
+}
 /* второй блок */
 .cont_2 {
 	display: grid;
@@ -312,25 +322,22 @@ p.abzac {
 .povar {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
-.povar_l {
-	margin-right: 50px;
-	margin-top: 20px;
-}
-.povar_r {
-	margin-left: 50px;
-	margin-top: 20px;
-}
-.avatar {
-	margin-top: 20px;
-}
-p.benito {
+.povar_l,.povar_r{
 	border-bottom: 1px solid rgba(86, 83, 76, 0.5);
 	border-top: 1px solid rgba(86, 83, 76, 0.5);
+	margin: 0 35px;
+	padding: 10px 20px;
+}
+.ko-r {
+	padding: 10px 0;
+}
+p.benito {
 	font-size: 24px;
 	font-family: "Alegreya";
 	color: rgb(86, 83, 76);
-	padding: 15px 0;
+	margin: 4px 8px;
 }
 .l_panel {
 	align-self: center;
