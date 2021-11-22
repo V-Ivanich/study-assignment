@@ -109,6 +109,7 @@ a.zag-4 {
 	display: flex;
 	align-items: center;
 }
+
 /* меню с логотипом и соц сети */
 .header {
 	display: flex;
@@ -133,6 +134,11 @@ p.lg {
 .header div p.lg-1 {
 	margin-top: 25px;
 }
+
+.lg-1 a:hover {
+ color: red;
+}
+
 .centr {
 	width: 60%;
 	padding-right: 36px;
