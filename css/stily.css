@@ -1,3 +1,5 @@
+
+
 :root {
 	--kory:#a47d5e;
 }
@@ -41,7 +43,7 @@ body {
 	background-size: 100% 100%;
 	background-position: center;
 	color: #fff;
-	font-family: 'Alegreya', sans-serif;
+	font-family: "Alegreya", sans-serif;
 }
 .osnov {
 	height: 89vh;
@@ -91,13 +93,13 @@ a.zag-4 {
 	padding: 2px 50px 2px 50px;
 }
 .our {
-	font-family: 'Alegreya';
+	font-family: "Alegreya";
 	letter-spacing: 5px;
 	font-weight:bold;
 	font-size: 14px;
 }
 .zag-3 {
-	font-family: 'Proxima Nova', sans-serif;
+	font-family: "Proxima Nova", sans-serif;
 	letter-spacing: 3px;
 	font-size: 24px;
 	font-weight: 300;
@@ -109,6 +111,7 @@ a.zag-4 {
 	display: flex;
 	align-items: center;
 }
+
 /* меню с логотипом и соц сети */
 .header {
 	display: flex;
@@ -117,7 +120,7 @@ a.zag-4 {
 
 p.lg {
 	color: #fff;
-	font-family: 'Scriptina', sans-serif;
+	font-family: "Scriptina", sans-serif;
 	font-size: 30px;
 	margin: 0;
 	margin-top: -15px;
@@ -126,13 +129,18 @@ p.lg {
 }
 .lg-1 {
 	color: #fff;
-	font-family: 'Alegreya', sans-serif;
+	font-family: "Alegreya", sans-serif;
 	font-size: 14px;
 	letter-spacing: 5px;
 }
 .header div p.lg-1 {
 	margin-top: 25px;
 }
+
+.lg-1 a:hover {
+ color: red;
+}
+
 .centr {
 	width: 60%;
 	padding-right: 36px;
@@ -142,7 +150,7 @@ p.lg {
 h1.zh {
 	font-size: 92px;
 	letter-spacing: 7px;
-	font-family: 'Playfair Display', sans-serif;
+	font-family: "Playfair Display", sans-serif;
 	margin: 0;
 	font-weight: bold;
 	line-height: 0.261;
@@ -150,7 +158,7 @@ h1.zh {
 }
 
 h2 {
-	font-family: 'Alegreya', sans-serif;
+	font-family: "Alegreya", sans-serif;
 	font-size: 48px;
 	color: rgb(86, 83, 76);
 	font-weight: bold;
@@ -158,22 +166,32 @@ h2 {
 	margin: 0;
 }
 h4 {
+	font-family: "Alegreya";
 	margin-top: 2px;
 	margin-bottom: 30px;
 	font-size: 14px;
 	color: var(--kory);
 	font-weight: bold;
-	letter-spacing: 0.5px;
+	letter-spacing: 1.5px;
 }
 h5 {
 	margin: 0;
 	padding: 0;
-	font-family: 'Alegreya', sans-serif;
+	font-family: "Alegreya", sans-serif;
 	font-size: 2.3em;
 	color: var(--kory);
 }
 .eda {
 	margin: 0;
+}
+
+.duplet {
+	position: relative;
+}
+.bulka {
+	position: absolute;
+	justify-items: center;
+	align-content: center;
 }
 
 /* второй блок */
@@ -191,6 +209,7 @@ h3 {
 	font-family: "Alegreya";
 	color: rgb(86, 83, 76);
 	font-weight: bold;
+	padding-top: 15px;
 }
 .cont_2 {
 	background-image: url(../images/fon-2.jpg);
@@ -266,18 +285,49 @@ a {
 	top: 20%;
 	left: 25%;
 	font-size: 1.9em;
-	font-family: 'Alegreya', sans-serif;
+	font-family: "Alegreya", sans-serif;
 	color: #1f1f1f;
+}
+<<<<<<< HEAD
+.text-2 {
+	display: flex;
+	justify-content: center;
+=======
+.circle {
+	width: 80px;
+	height: 80px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 11px;
+	left: 1px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,.05);
+}
+.kaima {
+	position: absolute;
+	top: -2px;
+	left: -12px;
+}
+.bylka {
+	position: absolute;
+	top: 28px;
+	left: 16px;
 }
 .text-2 {
 	display: flex;
 	justify-content: center;
+	margin-top: 50px;
+>>>>>>> db84c931b10b753e6d30002272c1b164d0dcb2e0
 }
 .podtext {
 	font-size: 24px;
 	font-family: "Scriptina";
 	color: rgb(164, 125, 94);
+<<<<<<< HEAD
 	font-weight: 500;
+=======
+	font-weight: 600;
+>>>>>>> db84c931b10b753e6d30002272c1b164d0dcb2e0
 	letter-spacing: 2px;
 	line-height: 1.3;
 }
@@ -298,8 +348,51 @@ a {
 .rrr {
 		align-items: flex-end;
 		margin-left: 20px;
+<<<<<<< HEAD
+=======
+}
+p.abzac {
+	font-family: "Proxima Nova";
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: rgb(86, 83, 76);
+	line-height: 1.714;
+	padding-top: 25px;
+}
+.povar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.povar_l,.povar_r{
+	border-bottom: 1px solid rgba(86, 83, 76, 0.5);
+	border-top: 1px solid rgba(86, 83, 76, 0.5);
+	margin: 0 35px;
+	padding: 10px 20px;
+}
+.ko-r {
+	padding: 10px 0;
+}
+p.benito {
+	font-size: 24px;
+	font-family: "Alegreya";
+	color: rgb(86, 83, 76);
+	margin: 4px 8px;
+>>>>>>> db84c931b10b753e6d30002272c1b164d0dcb2e0
 }
 
+.avatar {
+	width: 110px;
+	height: 110px;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 3px 3px 5px rgba(0,0,0,.05);
+}
+
+.foto {
+	padding: 6px 0 0 2px;
+}
 .l_panel {
 	align-self: center;
 }
@@ -478,42 +571,13 @@ a {
 }
 
 .footer {
-	background-image: url(../images/foter.png);
+	background-image: url(../images/fon-5.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 
 .l_panel {
 	position: relative;
-}
-.povar {
-	display: flex;
-	justify-content: center;
-}
-.povar_l {
-	margin-right: 30px;
-}
-.povar_r {
-	margin-left: 30px;
-}
-.avatar {
-	margin-top: 15px;
-}
-p.benito {
-	border-bottom: 2px solid #1f1f1f;
-	border-top: 2px solid #1f1f1f;
-	font-size: 24px;
-	font-family: "Alegreya";
-	color: rgb(86, 83, 76);
-	padding-bottom: 10px;
-}
-p.abzac {
-	font-family: 'Proxima Nova';
-	font-size: 14px;
-	font-weight: 600;
-	letter-spacing: 2px;
-	color: rgb(86, 83, 76);
-	line-height: 1.714;
 }
 
 .twit,.face,.inst {
@@ -563,33 +627,82 @@ p.abzac {
 	text-align: center;
 }
 .srow1 h2 {
-	font-size: 3.1em;
 	padding-top: 10%;
 	padding-left: 90px;
-	font-weight: 500;
 }
 .srow3 p {
 	padding-left: 90px;
+	font-size: 14px;
+	font-family: "Proxima Nova";
+	color: rgb(86, 83, 76);
+	line-height: 1.714;
+	letter-spacing: 2px;
+	font-weight: 500;
 }
 .srow2 p {
 	padding-left: 92px;
 	padding-top: 0;
 	margin-top: 0;
+	font-size: 14px;
+	font-family: "Alegreya";
+	color:#a47d5e;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 .mr1 {
-	margin-top: 25px;
+	margin: 28px 0 0 0;
+	font-size: 18px;
+	font-family: "Alegreya";
+	color: #a47d5e;
+	font-weight: bold;
 }
 .mr2 {
-	font-size: 5.5em;
 	margin: 0;
-	margin-top: 15px;
+	font-size: 92px;
+	font-family: "Alegreya";
+	color: #dfc691;
+	font-weight: bold;
+	letter-spacing: 10px;
+	line-height: 110px;
 }
 .mr3 {
-	margin-top: 0;
+	font-size: 18px;
+	font-family: "Alegreya";
+	color: #979285;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 0;
+	line-height: 0;
 }
 .prev,.next {
 	margin-top: 20px;
 	padding-top: 70px;
 	color: #000;
 	font-size: 2.5em;
+}
+
+
+@font-face {
+	font-family: "Alegreya";
+	src: url(../font/Alegreya/Alegreya.ttf) format("truetype");
+	font-style: normal; 
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Playfair Display";
+	src: url(../font/Playfair_Display/PlayfairDisplay.ttf) format("truetype");
+	font-style: normal; 
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Proxima Nova";
+	src: url(../font/Proxima_Nova/proximanova_regular.ttf) format("truetype");
+	font-style: normal; 
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Scriptina";
+	src: url(../font/Scriptina/SCRIPTIN.ttf) format("truetype");
+	font-style: normal; 
+	font-weight: normal;
 }
