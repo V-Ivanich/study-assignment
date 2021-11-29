@@ -1,19 +1,4 @@
-@font-face {
-	font-family: "Alegreya";
-	src: url(/font/Alegreya/Alegreya.ttf);
-}
-@font-face {
-	font-family: "PlayfairDisplay";
-	src: url(/font/Playfair/PlayfairDisplay.ttf);
-}
-@font-face {
-	font-family: "ProximaNova";
-	src: url(/font/Proxima/proximanova_regular.ttf);
-}
-@font-face {
-	font-family: "Scriptina";
-	src: url(/font/Scriptina/SCRIPTIN.ttf);
-}
+
 
 :root {
 	--kory:#a47d5e;
@@ -114,7 +99,7 @@ a.zag-4 {
 	font-size: 14px;
 }
 .zag-3 {
-	font-family: "ProximaNova", sans-serif;
+	font-family: "Proxima Nova", sans-serif;
 	letter-spacing: 3px;
 	font-size: 24px;
 	font-weight: 300;
@@ -165,7 +150,7 @@ p.lg {
 h1.zh {
 	font-size: 92px;
 	letter-spacing: 7px;
-	font-family: "PlayfairDisplay", sans-serif;
+	font-family: "Playfair Display", sans-serif;
 	margin: 0;
 	font-weight: bold;
 	line-height: 0.261;
@@ -200,16 +185,15 @@ h5 {
 	margin: 0;
 }
 
+.duplet {
+	position: relative;
+}
 .bulka {
 	position: absolute;
-	left: 48%;
-	top: 880px;
+	justify-items: center;
+	align-content: center;
 }
-.bylka {
-	position: absolute;
-	left: 26%;
-	top: 26%;
-}
+
 /* второй блок */
 .cont_2 {
 	display: grid;
@@ -355,7 +339,7 @@ a {
 		margin-left: 20px;
 }
 p.abzac {
-	font-family: "ProximaNova";
+	font-family: "Proxima Nova";
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 2px;
@@ -573,7 +557,7 @@ p.benito {
 }
 
 .footer {
-	background-image: url(../images/foter.png);
+	background-image: url(../images/fon-5.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -635,7 +619,7 @@ p.benito {
 .srow3 p {
 	padding-left: 90px;
 	font-size: 14px;
-	font-family: "ProximaNova";
+	font-family: "Proxima Nova";
 	color: rgb(86, 83, 76);
 	line-height: 1.714;
 	letter-spacing: 2px;
@@ -681,4 +665,30 @@ p.benito {
 	padding-top: 70px;
 	color: #000;
 	font-size: 2.5em;
+}
+
+
+@font-face {
+	font-family: "Alegreya";
+	src: url(../font/Alegreya/Alegreya.ttf) format("truetype");
+	font-style: normal; 
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Playfair Display";
+	src: url(../font/Playfair_Display/PlayfairDisplay.ttf) format("truetype");
+	font-style: normal; 
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Proxima Nova";
+	src: url(../font/Proxima_Nova/proximanova_regular.ttf) format("truetype");
+	font-style: normal; 
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Scriptina";
+	src: url(../font/Scriptina/SCRIPTIN.ttf) format("truetype");
+	font-style: normal; 
+	font-weight: normal;
 }
