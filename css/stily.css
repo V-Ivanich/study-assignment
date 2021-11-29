@@ -1,3 +1,20 @@
+@font-face {
+	font-family: "Alegreya";
+	src: url(/font/Alegreya/Alegreya.ttf);
+}
+@font-face {
+	font-family: "PlayfairDisplay";
+	src: url(/font/Playfair/PlayfairDisplay.ttf);
+}
+@font-face {
+	font-family: "ProximaNova";
+	src: url(/font/Proxima/proximanova_regular.ttf);
+}
+@font-face {
+	font-family: "Scriptina";
+	src: url(/font/Scriptina/SCRIPTIN.ttf);
+}
+
 :root {
 	--kory:#a47d5e;
 }
@@ -41,7 +58,7 @@ body {
 	background-size: 100% 100%;
 	background-position: center;
 	color: #fff;
-	font-family: 'Alegreya', sans-serif;
+	font-family: "Alegreya", sans-serif;
 }
 .osnov {
 	height: 89vh;
@@ -91,13 +108,13 @@ a.zag-4 {
 	padding: 2px 50px 2px 50px;
 }
 .our {
-	font-family: 'Alegreya';
+	font-family: "Alegreya";
 	letter-spacing: 5px;
 	font-weight:bold;
 	font-size: 14px;
 }
 .zag-3 {
-	font-family: 'Proxima Nova', sans-serif;
+	font-family: "ProximaNova", sans-serif;
 	letter-spacing: 3px;
 	font-size: 24px;
 	font-weight: 300;
@@ -118,7 +135,7 @@ a.zag-4 {
 
 p.lg {
 	color: #fff;
-	font-family: 'Scriptina', sans-serif;
+	font-family: "Scriptina", sans-serif;
 	font-size: 30px;
 	margin: 0;
 	margin-top: -15px;
@@ -127,7 +144,7 @@ p.lg {
 }
 .lg-1 {
 	color: #fff;
-	font-family: 'Alegreya', sans-serif;
+	font-family: "Alegreya", sans-serif;
 	font-size: 14px;
 	letter-spacing: 5px;
 }
@@ -148,7 +165,7 @@ p.lg {
 h1.zh {
 	font-size: 92px;
 	letter-spacing: 7px;
-	font-family: 'Playfair Display', sans-serif;
+	font-family: "PlayfairDisplay", sans-serif;
 	margin: 0;
 	font-weight: bold;
 	line-height: 0.261;
@@ -156,7 +173,7 @@ h1.zh {
 }
 
 h2 {
-	font-family: 'Alegreya', sans-serif;
+	font-family: "Alegreya", sans-serif;
 	font-size: 48px;
 	color: rgb(86, 83, 76);
 	font-weight: bold;
@@ -175,7 +192,7 @@ h4 {
 h5 {
 	margin: 0;
 	padding: 0;
-	font-family: 'Alegreya', sans-serif;
+	font-family: "Alegreya", sans-serif;
 	font-size: 2.3em;
 	color: var(--kory);
 }
@@ -283,7 +300,7 @@ a {
 	top: 20%;
 	left: 25%;
 	font-size: 1.9em;
-	font-family: 'Alegreya', sans-serif;
+	font-family: "Alegreya", sans-serif;
 	color: #1f1f1f;
 }
 .circle {
@@ -338,7 +355,7 @@ a {
 		margin-left: 20px;
 }
 p.abzac {
-	font-family: 'Proxima Nova';
+	font-family: "ProximaNova";
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 2px;
@@ -618,7 +635,7 @@ p.benito {
 .srow3 p {
 	padding-left: 90px;
 	font-size: 14px;
-	font-family: "Proxima Nova";
+	font-family: "ProximaNova";
 	color: rgb(86, 83, 76);
 	line-height: 1.714;
 	letter-spacing: 2px;
