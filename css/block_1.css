@@ -1,0 +1,222 @@
+
+/* первый блок */
+.cont_1 {
+	display: grid;
+	grid-template-areas:
+	"nv hd ban"
+	"nv os ban";
+	grid-template-rows: 70px 1fr;
+	grid-template-columns: 10% 1fr 10%;
+	text-align: center;
+}
+.hhed {
+	background-color: rgba(86, 83, 76, 0.529);
+	height: 70px;
+}
+.header {
+	grid-area: hd;
+	background-color: rgba(86, 83, 76, 0.529);
+}
+.nav {
+	grid-area: nv;
+}
+.osnov {
+	grid-area: os;
+}
+.baner {
+	grid-area: ban;
+}
+.cont_1 {
+	background-image: url(../images/fon-1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	color: #fff;
+	font-family: "Alegreya", sans-serif;
+}
+.osnov {
+	
+	background: radial-gradient(ellipse 45% 30%, rgba(108, 103, 98, 0.7) 0%, rgba(50,50,50,0));
+}
+.rr1,.rr2,.rr3,.rr4 {
+	z-index: 2;
+}
+.osnov {
+	display: grid;
+	grid-template-areas:
+	"."
+	"ro1"
+	"ro2"
+	"ro3"
+	"ro4"
+	".";
+	grid-template-rows:20% 20% 10% 15% 20% 5%;
+	grid-gap: 4px;
+	text-align: center;
+}
+.rr1 {
+	grid-area: ro1;
+}
+.rr2 {
+	grid-area: ro2;
+}
+.rr3 {
+	grid-area: ro3;
+}
+.rr4 {
+	grid-area: ro4;
+}
+.rr1 {
+	padding-top: 65px;
+}
+
+a.zag-4 {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	border-width: 1px;
+	border-color: rgb(158, 156, 147);
+	border-style: dashed;
+	background-color:rgba(86, 83, 76, 0.529);
+	color: #fff;
+	padding: 2px 50px 2px 50px;
+}
+
+a.zag-4:hover {
+    background-color: rgba(98, 100, 110, 0.7);
+}
+.our {
+	font-family: "Alegreya";
+	letter-spacing: 5px;
+	font-weight:bold;
+	font-size: 14px;
+}
+.zag-3 {
+	font-family: "Proxima Nova", sans-serif;
+	letter-spacing: 3px;
+	font-size: 24px;
+	font-weight: 300;
+	padding-left: 25px;
+	text-shadow: 0px 1px 0px rgba(61, 48, 41, 0.004);
+}
+
+.social {
+	display: flex;
+	align-items: center;
+}
+
+/* меню с логотипом и соц сети */
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+p.lg {
+	color: #fff;
+	font-family: "Scriptina", sans-serif;
+	font-size: 30px;
+	margin: 0;
+	margin-top: -15px;
+	letter-spacing: 10px;
+	padding-right: 10px;
+}
+.lg-1 {
+	color: #fff;
+	font-family: "Alegreya", sans-serif;
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+.header div p.lg-1 {
+	margin-top: 25px;
+}
+
+.lg-1 a:hover {
+    transition: 0.3s;
+    color: rgb(47, 195, 231);
+}
+a .s_b:hover {
+    filter: blur(0.5px) opacity(50%);
+}
+
+.centr {
+	width: 60%;
+	padding-right: 36px;
+	display: flex;
+	justify-content: space-between;
+}
+h1.zh {
+	font-size: 92px;
+	letter-spacing: 7px;
+	font-family: "Playfair Display", sans-serif;
+	margin: 0;
+	font-weight: bold;
+	line-height: 0.261;
+	text-shadow: 0px 1px 0px rgba(61, 48, 41, 0.9);
+}
+
+h2 {
+	font-family: "Alegreya", sans-serif;
+	font-size: 48px;
+	color: rgb(86, 83, 76);
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 0;
+}
+h4 {
+	font-family: "Alegreya";
+	margin-top: 2px;
+	margin-bottom: 30px;
+	font-size: 14px;
+	color: var(--kory);
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+h5 {
+	margin: 0;
+	padding: 0;
+	font-family: "Alegreya", sans-serif;
+	font-size: 2.3em;
+	color: var(--kory);
+}
+.eda {
+	margin: 0;
+}
+
+.duplet {
+	position: relative;
+}
+.bulka {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+
+}
+.circle {
+	width: 80px;
+	height: 80px;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 3px 3px 5px rgba(0,0,0,.05);
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.kaima {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+	
+}
+.bylka {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
