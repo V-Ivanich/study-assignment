@@ -134,8 +134,14 @@ p.lg {
     transition: 0.3s;
     color: rgb(47, 195, 231);
 }
+a .s_b {
+	width: 20px;
+	height: 20px;
+	stroke: #fff;
+	fill: #fff;
+}
 a .s_b:hover {
-    filter: blur(0.5px) opacity(50%);
+	fill: rgb(47, 195, 231);
 }
 
 .centr {
