@@ -134,14 +134,17 @@ p.lg {
     transition: 0.3s;
     color: rgb(47, 195, 231);
 }
-a .s_b {
-	width: 20px;
-	height: 20px;
-	stroke: #fff;
-	fill: #fff;
+.s_b {
+	width: 18px;
+	height: 18px;
+	padding-right: 8px;
+	filter: invert(1) opacity(.6);
+
 }
-a .s_b:hover {
-	fill: rgb(47, 195, 231);
+.s_b:hover {
+	
+	filter: sepia(50%) opacity(.6) blur(0.8px);
+
 }
 
 .centr {
