@@ -119,12 +119,14 @@ p.lg {
 	margin-top: -15px;
 	letter-spacing: 10px;
 	padding-right: 10px;
+	
 }
 .lg-1 {
 	color: #fff;
 	font-family: "Alegreya", sans-serif;
 	font-size: 14px;
 	letter-spacing: 5px;
+	
 }
 .header div p.lg-1 {
 	margin-top: 25px;
@@ -139,11 +141,11 @@ p.lg {
     padding: 6px;
     width: 18px;
     height: 18px;
-    transition: 0.5s;
+    transition: 0.4s;
     color: rgb(207, 207, 238);  
 }
 .fa-w-16:hover {
-    transition: 0.5s;
+    transition: 0.4s;
     color:#00acee;
 }
 .fa-w-10:hover {

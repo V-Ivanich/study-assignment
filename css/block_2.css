@@ -37,6 +37,7 @@ a {
 	text-decoration: none;
 	color: #fff;
 	outline: none;
+	transition: 0.3s;
 }
 .blok_2 {
 	display: flex;
