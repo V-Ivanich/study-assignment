@@ -56,23 +56,21 @@ p.lg {
 	padding-top: 4px;
 }
 .centr {
-	grid-row: 1/2;
-	grid-column: 3/4;
+	grid-row: 1 / 2;
+	grid-column: 3 / 4;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 7.742%;
 }
  
-.osnov {
-	grid-area: os;
-}
-
 
 .osnov {
-	grid-row: 2/3;
-	grid-column: 2/3;
+	grid-row: 2 / 3;
+	grid-column: 2 / 3;
 	background: radial-gradient(ellipse 45% 30%, rgba(108, 103, 98, 0.7) 0%, rgba(50,50,50,0));
+	display: grid;
+	grid-template: repeat(5, 0.2fr)/1fr;
 }
 .rr1,.rr2,.rr3,.rr4 {
 	z-index: 2;
