@@ -1,0 +1,53 @@
+
+/* четвертый блок */
+.cont_4 {
+	display: grid;
+	grid-template-areas:
+	"bl-7 bl-8 bl-9";
+	grid-template-rows: 1fr;
+	grid-template-columns: 10% 1fr 10%;
+	text-align: center;
+}
+.cont_4 {
+	background-image: url(../images/fon-4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 81vh;
+}
+.blok7 {
+	grid-area: bl-7;
+}
+.blok_8 {
+	grid-area: bl-8;
+	display: flex;
+}
+.blok_9 {
+	grid-area: bl-9;
+}
+.panel-l {
+	display: grid;
+	grid-template-areas:
+	"." "l-1" "l-2" "l-3" "l-4" "l-5" "l-6" "l-7" ".";
+	grid-template-rows: auto repit(7, 1fr) auto;
+}
+.pan_l-1 {
+	grid-area: l-1;
+}
+.pan_l-2 {
+	grid-area: l-2;
+}
+.pan_l-3 {
+	grid-area: l-3;
+}
+.pan_l-4 {
+	grid-area: l-4;
+}
+.pan_l-5 {
+	grid-area: l-5;
+}
+.pan_l-6 {
+	grid-area: l-6;
+}
+.pan_l-7 {
+	grid-area: l-7;
+}

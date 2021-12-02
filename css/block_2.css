@@ -33,12 +33,7 @@ h3 {
 .blok_3 {
 	grid-area: bl-3;
 }
-a {
-	text-decoration: none;
-	color: #fff;
-	outline: none;
-	transition: 0.3s;
-}
+
 .blok_2 {
 	display: flex;
 	margin: 0;

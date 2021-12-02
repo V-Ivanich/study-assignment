@@ -1,0 +1,70 @@
+
+/* пятый блок */
+.cont_5 {
+	display: grid;
+	grid-template-areas:
+	"bl-10 bl-11 bl-12"
+	"fu fu fu";
+	grid-template-rows: 1fr;
+	grid-template-columns: 10% 1fr 10%;
+	text-align: center;
+}
+.cont_5 {
+	background-image: url(../images/fon-5.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 98vh;
+}
+.blok_10 {
+	grid-area: bl-10;
+}
+.blok_11 {
+	grid-area: bl-11;
+}
+.blok_12 {
+	grid-area: bl-12;
+}
+.footer {
+	grid-area: fu;
+}
+.blok_11 {
+	display: grid;
+	grid-template-areas:
+	". ri1"
+	"le1 ri2"
+	"le2 ri3"
+	"le3 ri3"
+	"le4 ri3"
+	"le5 ri3"
+	"le6 ri3"
+	". .";
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr 1fr 139px 139px 139px 139px 1fr 1fr;
+}
+.l_c5_p1 {
+	grid-area: le1;
+}
+.l_c5_p2 {
+	grid-area: le2;
+}
+.l_c5_p3 {
+	grid-area: le3;
+}
+.l_c5_p4 {
+	grid-area: le4;
+}
+.l_c5_p5 {
+	grid-area: le5;
+}
+.l_c5_p6 {
+	grid-area: le6;
+}
+.r_c5_p1 {
+	grid-area: ri1;
+}
+.r_c5_p2 {
+	grid-area: ri2;
+}
+.r_c5_p3 {
+	grid-area: ri3;
+}
