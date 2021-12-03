@@ -1,7 +1,7 @@
 
 @import url(../css/block_1.css);
-/*
 @import url(../css/block_2.css);
+/*
 @import url(../css/block_3.css);
 @import url(../css/block_4.css);
 @import url(../css/block_5.css);
@@ -18,8 +18,7 @@ html {
 
 .main_grid {
 	display: grid;
-	grid-template: 70px repeat(5, 1fr) / 10% 1fr 10%;
-	gap: 0;
+	grid-template: repeat(5, 1fr) / 10% 1fr 10%;
 }
 
 
@@ -41,10 +40,6 @@ a {
 
 .l_panel {
 	position: relative;
-}
-
-.twit,.face,.inst {
-	margin-left: 25px;
 }
 
 .pan1 img,.pan2 img,

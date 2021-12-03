@@ -1,4 +1,13 @@
 
+
+/* общий блок для 2-х сонтейнеров */
+.duplet {
+	grid-row: 1/4;
+	grid-column: 1/4;
+}
+
+
+
 /* первый блок */
 .cont_1 {
 	grid-row: 1/3;
@@ -11,6 +20,8 @@
 	font-family: "Alegreya", sans-serif;
 	font-size: 1rem;
 	height: 900px;
+	display: grid;
+	grid-template: 70px 1fr/ 10% 1fr 10%;
 }
 
 .header {
@@ -34,18 +45,6 @@ p.lg {
 	letter-spacing: 9px;
 	line-height: 1;
 	margin: 15px 0 0 0;
-	/*	
-	.Gustoso {
-		font-size: 30px;
-		font-family: "Scriptina";
-		color: rgb(255, 255, 255);
-		line-height: 0.8;
-		position: absolute;
-		left: 168.88px;
-		top: 28px;
-		z-index: 276;
-	  }*/
-	  
 }
 .social {
 	grid-row: 1/2;
@@ -66,18 +65,38 @@ p.lg {
  
 
 .osnov {
-	grid-row: 2 / 3;
+	height: 100%;
+	grid-row: 2/3;
 	grid-column: 2 / 3;
 	background: radial-gradient(ellipse 45% 30%, rgba(108, 103, 98, 0.7) 0%, rgba(50,50,50,0));
+}
+
+.obolochka {
+	height: 100%;
 	display: grid;
-	grid-template: repeat(5, 0.2fr)/1fr;
-}
-.rr1,.rr2,.rr3,.rr4 {
-	z-index: 2;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5, 20%);
 }
 
-
-
+.rr1 {
+	grid-row: 2/3;
+	grid-column: 1/2;
+}
+.rr2 {
+	grid-row: 3/4;
+	grid-column: 1/2;
+}
+.rr3 {
+	grid-row: 4/5;
+	grid-column: 1/2;
+}
+.rr4 {
+	grid-row: 5/6;
+	grid-column: 1/2;
+}
+.divi {
+	text-align: center;
+}
 a.zag-4 {
 	display: inline-block;
 	position: relative;
@@ -104,7 +123,6 @@ a.zag-4:hover {
 	letter-spacing: 3px;
 	font-size: 24px;
 	font-weight: 300;
-	padding-left: 25px;
 	text-shadow: 0px 1px 0px rgba(61, 48, 41, 0.004);
 }
 
@@ -117,17 +135,6 @@ a.zag-4:hover {
 	font-weight: 100;
 	text-shadow: 0px 1px 0px rgb(56, 51, 51);
 	z-index: 275;
-/*	.Welcome_____~_____Menu_____~_____reservations__ {
-		font-size: 14px;
-		font-family: "Alegreya";
-		color: rgb(255, 255, 255);
-		text-transform: uppercase;
-		line-height: 1.714;
-		position: absolute;
-		left: 413.844px;
-		top: 23.002px;
-		z-index: 275;
-	  }*/
 	  
 }
 
@@ -138,11 +145,10 @@ a.zag-4:hover {
 }
 
 .svg-inline--fa {
-    padding: 6px;
+    margin-left: 30px;
     width: 0.9rem;
     height: 0.9rem;
     transition: 0.4s;
-    color: rgb(207, 207, 238);  
 }
 .fa-w-16:hover {
     transition: 0.4s;
@@ -164,8 +170,7 @@ h1.zh {
 	font-family: "Playfair Display", sans-serif;
 	margin: 0;
 	font-weight: bold;
-	line-height: 0.261;
-	text-shadow: 0px 1px 0px rgba(61, 48, 41, 0.9);
+	text-shadow: 0px 1px 0px rgba(61, 48, 41, 0.004);
 /*	.Pastry_with_love {
 		font-size: 92px;
 		font-family: "PlayfairDisplay";
